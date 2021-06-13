@@ -1,0 +1,15 @@
+Projekt je potrebno pokrenuti kroz XAMPP platformu.
+
+Prije toga obavezno napraviti bazu podataka na svojem phpmyadmin serveru,
+te bazu nazvati bbc-projekt.
+
+Collation izabrati utf8mb4_unicode_ci (pred kraj dropdown liste se nalazi). Nakon kreiranja te baze, kliknite misem na tu bazu, te opciju IMPORT. Selectajte bbc-projekt.sql file koji se nalazi u prilozenom dokumentu, te pritisnite "Go".
+
+Putanja do home.php nakon sto ste folder stavili u htdocs bi izgledala ovako:
+
+	localhost/Dorijan_Polić_BBC_projekt/home.php
+
+Započnite sa otvaranjem stranice home.php, te od tamo možete navigirati na sve ostale.
+
+Kako bi vidjeli stranicu administracija.php, morate se ulogirati sa korisnikom koji ima razinu prava 1. Vec postoji korisnik sa razinom prava 1, te mozete testirati preko njega, ili samostalno u bazi promjeniti razinu prava nakon kreiranja vlastitog korisnika.
+Moji podaci su: username = dori_polic, password = aaaa .

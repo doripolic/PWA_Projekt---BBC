@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+.clear {
+    height: 70px;
+}
+
+/*NAVIGACIJA*/
+
+header {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.navigacija {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.logo img {
+    width: 100px;
+    display: block;
+}
+
+.navigacija nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigacija nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13.3px 20px;
+    color: white;
+    border-left: 1px solid rgb(156, 156, 156);
+}
+
+.navigacija nav ul li:last-child a{
+    border-right: 1px solid rgb(156, 156, 156);
+}
+
+.navigacija nav ul li a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.naslov-boja {
+    background-color: grey;
+    margin-bottom: 40px;
+}
+
+.naslov {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.naslov h1 {
+    padding: 15px 0px;
+}
+
+.obrazac {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+    background-color: rgb(126, 186, 255);
+}
+
+.unos {
+    width: 100%;
+    padding: 5px 5px;
+    margin-top: 5px;
+    font-size: large;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgb(100, 100, 100);
+}
+
+.unos-naslov {
+    width: 100%;
+    padding: 10px 5px;
+    margin-top: 5px;
+    font-size: large;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgb(100, 100, 100);
+}
+
+.unos-kategorija {
+    width: 40%;
+    margin-top: 5px;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgb(100, 100, 100);
+}
+
+.unos-arhiva {
+    transform: scale(1.5);
+    margin-top: 5px;
+}
+
+button {
+    width: 30%;
+    padding: 10px 0px;
+    margin: 0px 25px;
+    font-size: large;
+    background-color: white;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(100, 100, 100);
+}
+
+button:hover {
+    background-color: rgb(26, 62, 182);
+    color: white;
+}
+
+form label {
+    font-size: 25px;
+}
+
+.form-odsjecak {
+    padding: 10px 0px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr 0.8fr;
+    grid-template-rows: 0.55fr 1fr 0.9fr 0.4fr;
+    gap: 0px 0px;
+    grid-template-areas: 
+        "naslov kategorija arhiva"
+        "kratki-opis slika slika"
+        "sadrzaj slika slika"
+        "objavljeno button button";
+}
+.form-slika {grid-area: slika;}
+.form-kategorija {grid-area: kategorija;}
+.form-arhiva {grid-area: arhiva;}
+.form-naslov {grid-area: naslov;}
+.form-sadrzaj {grid-area: sadrzaj;}
+.form-kratki-opis {grid-area: kratki-opis;}
+.form-button{grid-area: button;}
+.objavljeno{grid-area: objavljeno;}
+
+.form-slika img {
+    width: 70%;
+    padding: 2px;
+    background-color: white;
+    border: 0.5px solid rgb(100, 100, 100);
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgb(100, 100, 100);
+}
+
+.objavljeno {
+    text-align: left;
+    padding-top: 40px;
+    color:rgb(73, 73, 73);
+}
+
+.form-button {
+    padding-top: 20px;
+}
+
+/*FOOTER*/
+footer {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+    margin-top: 40px;
+}
+
+.footer-text {
+    margin: 0 auto;
+    max-width: 1000px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-text p {
+    padding-top: 20px;
+}

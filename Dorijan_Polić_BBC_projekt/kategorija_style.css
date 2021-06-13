@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/*NAVIGACIJA*/
+
+header {
+    background-color: black;
+    padding: 10px 0px;
+}
+
+.navigacija {
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.logo img {
+    width: 100px;
+    display: block;
+}
+
+.navigacija nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.navigacija nav ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 13.3px 20px;
+    color: white;
+    border-left: 1px solid rgb(156, 156, 156);
+}
+
+.navigacija nav ul li:last-child a{
+    border-right: 1px solid rgb(156, 156, 156);
+}
+
+.navigacija nav ul li a:hover {
+    background-color: rgb(80, 80, 80);
+}
+
+.ime_kategorije {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 15px 0px;
+}
+
+section {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding-bottom: 50px;
+}
+
+.section-naslov {
+    display: flex;
+}
+
+.svi-clanci {
+    padding-top: 20px;
+}
+
+.articles {
+    padding-top: 15px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.articles article {
+    max-width: 32%;
+}
+
+.articles article img {
+    width: 100%;
+}
+
+.articles article a:hover {
+    opacity: 0.7;
+}
+
+.articles a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/*FOOTER*/
+
+footer {
+    background-color: rgb(73, 73, 73);
+    width: 100%;
+}
+
+.footer-text {
+    margin: 0 auto;
+    max-width: 1200px;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.footer-text p {
+    padding-top: 20px;
+}
